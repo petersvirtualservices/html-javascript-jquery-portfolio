@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Password Generator and Decoder</h1>
+    </header>
+    <div class="card">
+      <div class="card-header">
+        <h2>Encrypt a Password</h2>
+        <a href="./index.html">Home</a>
+        <br /><br />
+      </div>
+      <div class="card-body">
+        <br/>
+        
+
+        <p>Enter The Password:</p>
+        <input type="text" id="encryption" name="encryption">
+      </br></br>
+        <textarea readonly id="passwordEncrypterPlace" class="passwordView" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
+      </div>
+      <div class="card-footer">
+        <button id="encrypt" class="btn">Encrypt Password</button>
+      </div>
+    </div>
+  </div>
+  <script src="./js/encrypt.js"></script>
+</body>
+
+</html>

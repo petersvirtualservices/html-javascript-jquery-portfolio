@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Palette+Mosaic&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Proposal Creator</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Proposal Creator</h1>
+
+        <div class="section">
+            <p>
+                Purpose of This App: The purpose of this app is to create Upwork proposals with a click of a few buttons using jQuery.
+            </p>
+        </div>
+
+        <br /> <br /> 
+
+
+        <div class="section">
+
+            <h3>General Information</h3>
+            <input type="text" class="textBoxEnter" name="name" id="name" placeholder="Your Name"><br />
+            <input type="text" class="textBoxEnter" name="attn" id="attn"
+                placeholder="Person To Whom You Will Address Proposal"><br />
+            <input type="text" class="textBoxEnter" name="title" id="title" placeholder="Enter Project Job Title"><br />
+            <input type="text" class="textBoxEnter" name="timeline" id="timeline" placeholder="Enter Timelines/Due Dates/Plan For The Project"><br />
+            <br />
+
+
+            <h3>Skillset Proofs</h3>
+            <input type="checkbox" id="product_tester" name="product_tester" value="product_tester">
+            <label for="product_tester">Product Tester</label><br/>
+            <input type="checkbox" id="internet_researcher" name="internet_researcher" value="internet_researcher">
+            <label for="internet_researcher">Internet Researcher</label><br/>
+            <input type="checkbox" id="network_connections" name="network_connections" value="network_connections">
+            <label for="network_connections">Network Connections</label><br/>
+            <input type="checkbox" id="data_entry" name="data_entry" value="data_entry">
+            <label for="data_entry">Data Entry</label><br/>            
+            <input type="checkbox" id="calendar_organization" name="calendar_organization"
+                value="calendar_organization">
+            <label for="calendar_organization">Calendar Organization</label>    <br/>        
+            <input type="checkbox" id="customer_service_contractor" name="customer_service_contractor"
+                value="customer_service_contractor">
+            <label for="customer_service_contractor">Customer Service Contractor</label><br/>
+            <input type="checkbox" id="hCSS" name="hCSS" value="hCSS">
+            <label for="hCSSs">HTML/CSS</label>
+            <br /><br />
+
+
+            <h3>Portfolio</h3>
+            <input type="checkbox" id="portfolio" name="portfolio" value="portfolio">
+            <label for="portfolio">Website and Github Portfolio</label>
+            <br /><br />
+
+            <h3>Sign-Off</h3>
+            <input type="radio" id="signOffOne" name="signOff" value="signOffOne">
+            <label for="signOffOne">Thank you,</label><br/>
+            <input type="radio" id="signOffTwo" name="signOff" value="signOffTwo">
+            <label for="signOffTwo">Good luck with your search,</label><br/>
+            <input type="radio" id="signOffThree" name="signOff" value="signOffThree">
+            <label for="signOffThree">Have a great day,</label><br/>
+            <input type="radio" id="signOffFour" name="signOff" value="signOffFour">
+            <label for="signOffFour">I wish you the best,</label>
+
+            <br/><br/>
+            <button id="submit">Submit</button>
+
+
+        </div>
+        <div contenteditable="true">
+            <br /> <br />
+            <p>WHAT WILL BE SENT (CAN BE EDITED IN TEXT):</p>
+            <br />
+            <div id="goesHere1"></div>
+            <br />
+            <div id="goesHere2"></div>
+            <br />
+            <div id="goesHere3"></div>
+            <br />
+            <div id="goesHere4"></div>
+            <br />
+            <div id="goesHere5"></div>
+            <br />
+            <div id="goesHere6"></div>
+            <br />
+            <div id="goesHere7"></div>
+            <br /> <br /> <br />
+        </div>
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
